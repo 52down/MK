@@ -1,0 +1,45 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * One Page Checkout module CSS stylesheet
+ *
+ * @category    X-Cart
+ * @package     X-Cart
+ * @subpackage  CSS
+ * @author      Ruslan R. Fazlyev <rrf@x-cart.com>
+ * @version     370b542f52fa72fef427aed41235df9a92fd603b, v7 (xcart_4_7_7), 2016-09-06 19:41:14, altskin.css, mixon
+ * @link        http://www.x-cart.com/
+ * @see         ____file_see____
+ */
+
+table.totals tr td.total,
+table.totals tr td.total-name,
+table.totals tr td.total-value,
+table.totals tr td.total-value-alt,
+table.totals span.total-name
+{
+  font-weight: bold;
+  text-transform: none;
+  padding: 5px 5px 5px 0;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+table.totals tr.total td.total-value-alt {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+.field-container a {
+  margin: -2px -2px -4px 5px;
+}
+
+div.checkout-container #center #personal_details input[type=text],
+div.checkout-container #center #personal_details input[type=password],
+div.checkout-container #center #personal_details textarea
+{
+  max-width: 205px;
+}
+
+div.checkout-container #center #personal_details select {
+  max-width: 211px; /* width for <select> includes borders */
+}

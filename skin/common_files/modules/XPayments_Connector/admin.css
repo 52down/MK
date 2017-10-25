@@ -1,0 +1,205 @@
+/*
+fdf4c40775b539a54bc228e488550b992e275a43, v12 (xcart_4_7_8), 2017-05-31 11:32:26, admin.css, Ildar
+vim: set ts=2 sw=2 sts=2 et:
+*/
+.card-expire
+{
+  text-align: right;
+  color: #aaa;
+  width: 100%;
+}
+.card-icon,
+.card-info
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+.card-icon {
+  width: 90px;
+  height: 40px;
+  background: url(card_types.png) 0 0 no-repeat;
+  background-size: 100%;
+}
+.card-icon.mc {
+}
+.card-icon.visa {
+  background-position: 0 12.5%;
+}
+.card-icon.jcb {
+  background-position: 0 25%;
+}
+.card-icon.amex {
+  background-position: 0 37.5%;
+}
+.card-icon.dc {
+  background-position: 0 50%;
+}
+.card-icon.dicl {
+  background-position: 0 62.5%;
+}
+.card-icon.sw {
+  background-position: 0 75%;
+}
+.card-icon.cup {
+  background-position: 0 87.5%;
+}
+.card-icon.bc {
+  background-position: 0 100%;
+}
+
+table.saved-cards th {
+  text-align: left;
+}
+table.saved-cards tr.button-row td {
+  padding-top: 10px;
+  text-align: center;
+}
+
+ul.saved-cards li {
+  list-style: none;
+}
+ul.saved-cards li label {
+  cursor: pointer;
+}
+ul.saved-cards li label input {
+  vertical-align: middle;
+}
+ul.saved-cards .card-container {
+  display: inline-block;
+}
+
+.xpc-options {
+  padding: 0;
+  margin: 0;
+}
+.xpc-options li {
+  list-style: none;
+  padding: 8px;
+  margin-bottom: -1px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+}
+.xpc-option-name,
+.xpc-option-value-container,
+.xpc-option-value,
+.xpc-option-help
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+.xpc-option-name {
+  width: 50%;
+}
+.xpc-option-value-container {
+  width: 49%;
+  white-space: nowrap;
+}
+.xpc-option-error {
+  color: red;
+  font-style: italic;
+}
+.xpc-advanced-options-link {
+  padding: 8px;
+}
+.xpc-option-value,
+.xpc-options select,
+.xpc-options textarea,
+.xpc-options input,
+#xpc-deploy-entry
+{
+  max-width: 95%;
+}
+#xpc-deploy-page {
+  max-width: 800px;
+}
+#xpc-bundle-note {
+  margin-left: 14px;
+}
+.xpc-no-active-pm-warning span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.xpc-payment-error-cell {
+  background: #fff;
+}
+
+#xpc_update_pm_submit {
+  margin-top: 8px;
+}
+
+#xpc_address_hint {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  max-width: 280px;
+}
+#xpc_address_hint .address-line {
+    margin: 5px 0;
+}
+#xpc_address_hint .xpc-address-comment {
+  margin-top: 20px;
+  font-style: italic;
+  color: #aaa;
+}
+
+#xpc_iframe_section {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.xpc-add-new-card-button img {
+  margin-left: 5px;
+}
+
+.xpc-antifraud-status {
+  width: 24px;
+  height: 24px;
+  float: right;
+  text-decoration: none !important;
+}
+
+.xpc-antifraud-status.status-R {
+  background: url(antifraud_status/review.svg);
+  background-size: 24px 24px;
+}
+
+.xpc-antifraud-status.status-E,
+.xpc-antifraud-status.status-D {
+  background: url(antifraud_status/fraud.svg);
+  background-size: 24px 24px;
+}
+
+.xpc-antifraud-status.status-A {
+  background: url(antifraud_status/clean.svg);
+  background-size: 24px 24px;
+}
+
+.xpc-antifraud-data h3 {
+  background-color: #fcf8e4;
+  display: inline;
+  padding: 4px;
+}
+
+.xpc-antifraud-data h3 span.status-R {
+  color: #f0ad4e;
+}
+
+.xpc-antifraud-data h3 span.status-E,
+.xpc-antifraud-data h3 span.status-D {
+  color: #d9534f;
+}
+
+.xpc-antifraud-data h3 span.status-A {
+  color: #5cb85c;
+}
+
+.xpc-antifraud-content {
+  margin-left: 4px;
+  margin-top: 10px;
+}
+
+.xpc-antifraud-content ul {
+  padding-left: 10px;
+}

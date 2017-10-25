@@ -1,0 +1,2 @@
+cd modules/Klarna_Payments;
+composer update "klarna/php-xmlrpc 5.0"

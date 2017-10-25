@@ -1,0 +1,55 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * CSS stylesheet for daterangepicker widget
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage Skin
+ * @author     Michael Bugrov
+ * @copyright  Copyright (c) 2001-present Qualiteam software Ltd <info@x-cart.com>
+ * @version    ab037e1f10a534cb62fd6b4a4ec203dd44ce9bed, v4 (xcart_4_7_7), 2017-01-24 09:39:46, daterangepicker.css, aim
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+input.date-range
+{
+  background-image: url(../../images/icon_calendar.png);
+  background-repeat: no-repeat;
+  background-position: right 3px top 3px;
+  padding-right: 30px;
+  padding-left: 5px;
+  font-size: 15px;
+  width: 265px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.date-picker-wrapper {
+  box-sizing: border-box;
+}
+
+.date-picker-wrapper .top-bar .apply-btn {
+  padding-top: 2px;
+}
+
+.date-picker-wrapper .footer b,
+.date-picker-wrapper .footer span
+{
+  float: left;
+  padding-right: 5px;
+}
+
+.date-picker-wrapper .footer .prev-days + .custom-shortcut,
+.date-picker-wrapper .footer .prev-buttons + .custom-shortcut,
+.date-picker-wrapper .footer .next-days + .custom-shortcut,
+.date-picker-wrapper .footer .next-buttons + .custom-shortcut
+{
+  clear: left;
+}
+
+.date-picker-wrapper .footer .custom-shortcut a
+{
+  font-size: 12px;
+  text-transform: capitalize;
+}

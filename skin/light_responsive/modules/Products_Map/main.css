@@ -1,0 +1,46 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Products map module CSS stylesheet
+ *  
+ * @category   X-Cart
+ * @package    Modules
+ * @subpackage Products Map
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com> 
+ * @version    8430eb5a47911a8b5ebcc38962bdfd504ec047c4, v2 (xcart_4_7_7), 2016-09-21 15:30:31, main.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+/**
+ * Products map
+ */
+.pmap_letters * {
+  display: inline-block;
+}
+.pmap_letters a {
+  text-decoration: none;
+}
+.pmap_letters a,
+.pmap_letters span {
+  border: 1px solid #d7e1e8;
+  padding: 6px 12px;
+  margin-bottom: 3px;
+}
+.pmap_letters a:hover {
+  border-color: #b1c9e0;
+  text-decoration: none;
+}
+.pmap_letters span.pmap_current {
+  font-weight: inherit;
+  cursor: default;
+  background-color: #5b9ece;
+  border-color: #5b9ece;
+  color: #ffffff;
+}
+.pmap_letters > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.pmap_letters .pmap_disabled {
+  opacity: 0.4;
+}

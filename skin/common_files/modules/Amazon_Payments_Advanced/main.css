@@ -1,0 +1,80 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Amazon Payments Advanced module CSS stylesheet
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Michael Bugrov
+ * @version    b283c11bf1e93f8c7aec97f116883b13c1b13176, v6 (xcart_4_7_7), 2017-01-18 17:27:11, main.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+ul#opc-sections.amazon-payment-advanced li.opc-section.amazon-widgets {
+  width: calc(100% - 40px);
+}
+
+@media only screen and (min-width: 768px) {
+
+  ul#opc-sections.amazon-payment-advanced li.opc-section.amazon-widgets {
+    width: 400px;
+  }
+}
+
+ul#opc-sections.amazon-payment-advanced li.opc-section.last {
+  width: calc(100% - 400px - 2.75%);
+}
+
+@media (max-width: 959px) {
+  ul#opc-sections.amazon-payment-advanced li.opc-section.amazon-widgets {
+    margin-top: 30px;
+  }
+  div.opc-container #center-main {
+    text-align: center!important;
+  }
+}
+
+/*@media (max-width: 767px) {
+    ul#opc-sections.amazon-payment-advanced li.opc-section.amazon-widgets .widget-container,
+    ul#opc-sections.amazon-payment-advanced li.opc-section.amazon-widgets .widget-container iframe {
+        width: 100%!important;
+    }
+}*/
+
+#addressBookWidgetDiv, #walletWidgetDiv {
+  min-width: 280px;
+  max-height: 400px;
+}
+
+
+/* Mobile optimized and small window */
+
+#addressBookWidgetDiv, #walletWidgetDiv {
+  width: 100%;
+}
+
+/* Desktop and tablet */
+
+@media only screen and (min-width: 568px) {
+
+  #addressBookWidgetDiv, #walletWidgetDiv {
+    height: 260px;
+  }
+}
+
+.loginAndPayWithAmazonContainer {
+  margin-left: 5px;
+}
+
+#center-main > .loginAndPayWithAmazonContainer {
+  margin-left: 0;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 959px) {
+  #center-main > .loginAndPayWithAmazonContainer {
+    text-align: center;
+  }
+}

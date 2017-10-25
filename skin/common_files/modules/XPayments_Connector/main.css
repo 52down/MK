@@ -1,0 +1,89 @@
+/*
+fee1a20fd634bde49eb5dd1f82707c7298951e69, v9 (xcart_4_7_6), 2016-06-10 16:29:31, main.css, random
+vim: set ts=2 sw=2 sts=2 et:
+*/
+.card-expire {
+  text-align: right;
+  color: #aaa;
+  width: 100%;
+}
+.card-icon,
+.card-info
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+.card-icon {
+  width: 100px;
+  height: 45px;
+  background-size: 100% !important;
+}
+.card-icon.mc {
+  background: url(card_types.png) 0 0 no-repeat;
+}
+.card-icon.visa {
+  background: url(card_types.png) 0 12.5% no-repeat;
+}
+.card-icon.jcb {
+  background: url(card_types.png) 0 25% no-repeat;
+}
+.card-icon.amex {
+  background: url(card_types.png) 0 37.5% no-repeat;
+}
+.card-icon.dc {
+  background: url(card_types.png) 0 50% no-repeat;
+}
+.card-icon.dicl {
+  background: url(card_types.png) 0 62.5% no-repeat;
+}
+.card-icon.sw {
+  background: url(card_types.png) 0 75% no-repeat;
+}
+.card-icon.cup {
+  background: url(card_types.png) 0 87.5% no-repeat;
+}
+.card-icon.bc {
+  background: url(card_types.png) 0 100% no-repeat;
+}
+
+table.saved-cards {
+  max-width: 700px;
+}
+table.saved-cards th {
+  text-align: left;
+}
+table.saved-cards tr.button-row td {
+  padding-top: 10px;
+  text-align: left;
+}
+table.saved-cards .default-card {
+  font-weight: bold;
+}
+
+ul.saved-cards li {
+  list-style: none;
+}
+ul.saved-cards li label {
+  cursor: pointer;
+}
+ul.saved-cards li label input {
+  vertical-align: middle;
+}
+ul.saved-cards .card-container {
+  display: inline-block;
+}
+
+#xpc_address_hint {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 7px;
+}
+#xpc_iframe_section {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.xpc-show-all-cards {
+  margin-left: 15px;
+  font-size: smaller;
+}

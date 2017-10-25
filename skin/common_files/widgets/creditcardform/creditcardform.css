@@ -1,0 +1,413 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * CSS stylesheet for creditcardform widget
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage Skin
+ * @author     Michael Bugrov
+ * @copyright  Copyright (c) 2001-present Qualiteam software Ltd <info@x-cart.com>
+ * @version    ab037e1f10a534cb62fd6b4a4ec203dd44ce9bed, v4 (xcart_4_7_7), 2017-01-24 09:39:46, creditcardform.css, aim
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+.cc-form-container {
+  width: 267px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cc-form-container .dropdown-menu {
+  display: none;
+}
+
+.cc-form-container .pull-right {
+  float: right;
+}
+
+.cc-form-container .btn-group {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.cc-form-container .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff!important;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.cc-form-container .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.cc-form-container .dropdown-menu > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top,#08c,#0077b3);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));
+  background-image: -webkit-linear-gradient(top,#08c,#0077b3);
+  background-image: -o-linear-gradient(top,#08c,#0077b3);
+  background-image: linear-gradient(to bottom,#08c,#0077b3);
+  background-repeat: repeat-x;
+}
+
+.cc-form-container .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+
+.cc-form-container .open > .dropdown-menu {
+  display: block;
+}
+
+.cc-form-container div.content .cc-form {
+  background: url(images/single_form_bg_267px.png) no-repeat top center;
+  position: relative;
+  padding-left: 21px;
+  min-height: 170px;
+}
+
+.cc-form-container div.content .cc-form .has-error {
+  background-color: #ffebeb;
+}
+
+.cc-form-container div.content div.header h3 {
+  font-size: 20px;
+  color: #579ed2;
+  font-weight: normal;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.cc-form-container div.content div.title {
+  display: none;
+}
+
+.cc-form-container div.content input,
+.cc-form-container div.content select {
+  color: #555;
+  line-height: normal;
+  margin: 1px 1px 3px 1px !important;
+  padding: 4px 6px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.cc-form-container div.content input:focus,
+.cc-form-container div.content select:focus {
+  margin: 1px 1px 3px 1px !important;
+  border-width: 1px;
+}
+
+.cc-form-container div.content div.cardType {
+  position: absolute;
+  top: 6px;
+  right: 15px;
+}
+
+.cc-form-container div.content div.cardType div.btn-group {
+  width: 70px;
+  height: 30px;
+  top: 2px;
+}
+
+.cc-form-container div.content div.cardType div.value select#card_type {
+  display: none;
+}
+
+.cc-form-container div.content div.cardType .btn-group.open .dropdown-toggle {
+  box-shadow: none;
+}
+
+.cc-form-container div.content div.cardType a.icon {
+  display: block;
+  padding: 0;
+  width: 66px;
+  height: 33px;
+  border-radius: 5px;
+  background: none;
+  font-size: 0px;
+  overflow: hidden;
+}
+
+.cc-form-container div.content div.cardType a.icon.blank {
+  opacity: 0.5;
+  background: white;
+}
+
+.cc-form-container div.content div.cardType a.icon.unknown {
+  background: white;
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px;
+  padding-top: 3px;
+  height: 30px;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card {
+  display: block;
+  width: 140px;
+  height: 70px;
+  zoom: 0.5;
+  -moz-transform: scale(0.5);
+  -moz-transform-origin: 0 0 0;
+}
+
+.cc-form-container div.content div.cardType a.icon.unknown span.card,
+.cc-form-container div.content div.cardType a.icon.blank span.card {
+  display: none;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.mc {
+  background: url(images/cc_types_sprite_embed.png) 0px 0px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.visa {
+  background: url(images/cc_types_sprite_embed.png) 0px -71px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.jcb {
+  background: url(images/cc_types_sprite_embed.png) 0px -141px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.amex {
+  background: url(images/cc_types_sprite_embed.png) 0px -211px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.dc {
+  background: url(images/cc_types_sprite_embed.png) 0px -281px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.dicl {
+  background: url(images/cc_types_sprite_embed.png) 0px -351px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.sw {
+  background: url(images/cc_types_sprite_embed.png) 0px -421px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.cup {
+  background: url(images/cc_types_sprite_embed.png) 0px -491px no-repeat;
+}
+
+.cc-form-container div.content div.cardType a.icon span.card.bc {
+  background: url(images/cc_types_sprite_embed.png) 0px -561px  no-repeat;
+}
+
+.cc-form-container div.content div.cardNumber {
+  margin-top: 12px;
+  padding-top: 48px;
+}
+
+.cc-form-container div.content div.cardNumber input {
+  width: 224px !important;
+  max-width: 224px !important;
+}
+
+.cc-form-container div.content div.cardExpire {
+  height: 55px;
+}
+
+.cc-form-container div.content div.cardExpire div.title {
+  margin-top: 14px;
+}
+
+.cc-form-container div.content div.cardExpire div.top-line div.top-text {
+  font-size: 10px!important;
+  padding-left: 112px;
+  text-transform: uppercase;
+}
+
+.cc-form-container div.content div.cardExpire div.bottom-line {
+  background: none;
+  margin: 0;
+}
+
+.cc-form-container div.content div.cardExpire div.bottom-line div.left-text{
+  font-size: 10px!important;
+  line-height: 30px;
+  float: left;
+  width: 85px;
+  text-transform: uppercase;
+}
+
+.cc-form-container div.content div.cardExpire div.month-container {
+  float: left;
+  padding-right: 10px;
+}
+
+.cc-form-container div.content div.cardExpire div.year-container{
+}
+
+.cc-form-container div.content div.cardExpire div.year-container select{
+  width: auto;
+}
+
+.cc-form-container div.content div.cardExpire select {
+  margin-bottom: 0;
+  width: 60px!important;
+}
+
+.cc-form-container div.content div[data-disabled="Y"] {
+  display: none;
+}
+
+.cc-form-container div.content div.cardName {
+  height: 55px;
+}
+
+.cc-form-container div.content div.cardName input {
+  width: 224px !important;
+}
+
+.cc-form-container div.content div.cardName[data-disabled="Y"] + div.cardCVV2 {
+  padding-top: 55px;
+}
+
+.cc-form-container div.content div.cardCVV2 {
+  height: 75px;
+  display: none;
+}
+
+.cc-form-container div.content div.cardCVV2 input {
+  float: left;
+  margin-right: 20px;
+  width: 60px !important;
+}
+
+.cc-form-container div.content div.cardCVV2 div.right-text {
+  font-size: 13px;
+  line-height: 16px;
+  color: #999;
+  width: 155px;
+  position: absolute;
+  bottom: 13px;
+}
+
+.cc-form-container div.content div.cardCVV2 div.right-text.blank {
+  display: none;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  right: -3px;
+  bottom: 5px;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.blank {
+  display: none;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon {
+  width: 128px;
+  height: 128px;
+  zoom: 0.75;
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0 0;
+  overflow: hidden;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.mc {
+  background: url(images/sc_types_sprite_embed.png) 0px 0px  no-repeat;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.visa {
+  background: url(images/sc_types_sprite_embed.png) 0px -129px  no-repeat;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.amex {
+  background: url(images/sc_types_sprite_embed.png) 0px -257px  no-repeat;
+}
+
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.jcb,
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.dc,
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.bc,
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.sw,
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.cup,
+.cc-form-container div.content div.cardCVV2 div.icon-container div.icon.dicl {
+  background: url(images/sc_types_sprite_embed.png) 0px -385px  no-repeat;
+}
+
+.cc-form-container div.content div.buttonRow {
+  display: none;
+}
+
+.cc-form-container div.process-complete-label {
+  color: #999;
+  font-size: 0.7em;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cc-form-container div.top-message-error {
+  position: absolute;
+  top: 0;
+  margin: 2px;
+  padding: 4px;
+  font-size: 0.8em;
+}
+
+.cc-form-container input.widget-error,
+.cc-form-container select.widget-error {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.cc-form-container input.widget-error:focus,
+.cc-form-container select.widget-error:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+}
+
+.cc-form-container p.error.inline-error {
+  display: none;
+}
+
+.cc-form-container input[type="text"].validation-error{
+  border-width: 1px !important;
+  border-color: #ff0000;
+}
+
+.cc-form-container .right-text span {
+  display: none;
+}
+
+.cc-form-container .right-text span.default-text {
+  display: inline;
+}

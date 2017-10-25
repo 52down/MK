@@ -1,0 +1,119 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Product Notifications module CSS stylesheet
+ *  
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com> 
+ * @version    d81cec22fe05c6e8bb3ade2191e34053f239d6c9, v6 (xcart_4_7_6), 2016-06-14 14:52:09, main.css, aim
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+/* 
+ * Notification request button
+ */
+a.prod-notif-request-button
+{
+  padding-left: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.prod-notif-request-button img
+{
+  display: inline;
+  vertical-align: bottom;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a.prod-notif-request-button:hover img
+{
+}
+
+div a.prod-notif-request-button:hover
+{
+  text-decoration: none;
+}
+
+div a.prod-notif-request-button:hover span
+{
+  text-decoration: underline;
+}
+
+/* 
+ * Notification request body
+ */
+.prod-notif
+{
+  font-size: 12px;
+  margin: 10px 0 0 0;
+  padding: 10px 0px 10px 5px;
+  background-color: #f3fafa;
+}
+
+.prod-notif-request-submit-line
+{
+}
+
+.prod-notif-email
+{
+  border: solid 1px #bbb;
+  margin: 10px 0 0 0;
+  background: #fff;
+  width: 200px;
+}
+
+.products-table .prod-notif-email 
+{
+  width: 150px !important;
+}
+
+input.prod-notif-email:focus
+{
+  border: solid 1px #999;
+}
+
+.prod-notif-email-error
+{
+  border: solid 1px #b51a00 !important;
+  background-color: #f7f3f3 !important;
+}
+
+.prod-notif-email-default-value
+{
+  color: #aaa;
+}
+
+.prod-notif-request-submit-message 
+{
+  height: 11px;
+  color: green;
+}
+
+.prod-notif-request-submit-error-message
+{
+  color: red !important;
+}
+.products .price-row 
+{
+ line-height: 26px;
+}
+
+.ui-tooltip {
+ padding: 8px;
+ position: absolute;
+ z-index: 9999;
+ max-width: 300px;
+ -webkit-box-shadow: 0 0 5px #aaa;
+ box-shadow: 0 0 5px #aaa;
+ font-weight: bold;
+}
+body .ui-tooltip {
+ border-width: 2px;
+}

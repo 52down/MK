@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS xcart_facebook_ecomm_pending_export, xcart_facebook_ecomm_marked_products, xcart_facebook_ecomm_feed_files;

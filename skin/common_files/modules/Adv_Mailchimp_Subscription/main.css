@@ -1,0 +1,47 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Adv_Mailchimp_Subscription module CSS stylesheet
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com>
+ * @version    a26546caee6d4cd5438ef532e0f1d5a40f4b83f1, v2 (xcart_4_7_6), 2016-06-10 12:05:52, main.css, aim
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+/* News list / News Archive */
+label.news-item {
+  display: block;
+  font-weight: bold;
+}
+
+.news-item-descr {
+  font-style: italic;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.news-list .news-item {
+  margin-top: 27px;
+}
+
+.news-list .news-item.last {
+  margin-bottom: 27px;
+}
+
+.news-list .news-date {
+  color: #818891;
+}
+
+.news-list .news-title {
+  color: #2c3e49;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.news-list .news-body {
+  margin-top: 10px;
+}
+

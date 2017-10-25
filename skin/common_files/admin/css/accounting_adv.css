@@ -1,0 +1,180 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * CSS stylesheet for main/accounting_adv.tpl
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage Skin
+ * @author     Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @version    3f390e9b80623d8505b4f0bf5666a65b4f5df8bf, v1 (xcart_4_7_4), 2015-10-26 15:47:16, accounting_adv.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+/*
+* Commmon styles
+*/
+.accounting-page-wrapper a
+{
+  text-decoration: none;
+}
+
+.accounting-page-wrapper a:hover
+{
+  text-decoration: underline;
+}
+
+.accounting-page-wrapper .description
+{
+  margin: 20px 0 20px 0;
+  width: 100%;
+}
+
+.accounting-page-wrapper .description p
+{
+  font-size: 16px;
+}
+
+.accounting-page-wrapper .description hr
+{
+  margin-top: 0;
+}
+
+.accounting-page-wrapper .available-block-list,
+.accounting-page-wrapper .installed-block-list
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.accounting-page-wrapper .available-block-list li,
+.accounting-page-wrapper .installed-block-list li
+{
+  list-style: none;
+}
+
+.accounting-page-wrapper .available-block-list li a,
+.accounting-page-wrapper .installed-block-list .installed-module
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*
+* Installed block
+*/
+.accounting-page-wrapper .installed-block .alert
+{
+  font-size: 14px;
+  display: inline-block;
+}
+
+.accounting-page-wrapper .installed-block .alert strong
+{
+  font-weight: 600;
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module
+{
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  margin-right: 30px;
+  min-width: 300px;
+  margin-bottom: 40px;
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module img
+{
+  max-width: 84px;
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module .info
+{
+  margin-left: 15px;
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module .info .name
+{
+  font-size: 16px;
+  color: #0062A0;
+  max-width: 200px;
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module .author-label
+{
+  color: #8f8f8f;
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module .author-value
+{
+
+}
+
+.accounting-page-wrapper .installed-block .installed-block-list .installed-module .settings-button
+{
+  padding: 7px 20px;
+  height: auto;
+  margin-top: 15px;
+}
+
+/*
+* Available block
+*/
+.accounting-page-wrapper .available-block-list
+{
+  margin-top: 30px;
+}
+
+.accounting-page-wrapper .available-block-list li
+{
+  max-width: 190px;
+  margin-right: 5px;
+}
+.accounting-page-wrapper .available-block-list li a
+{
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.accounting-page-wrapper .available-block-list li img
+{
+  width: 100%;
+}
+
+.accounting-page-wrapper .available-block-list li .link-wrapper
+{
+  margin-top: 12px;
+  color: #1a509a;
+  font-size: 13px;
+}

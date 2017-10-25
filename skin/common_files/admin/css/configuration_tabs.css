@@ -1,0 +1,96 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * CSS stylesheet for admin/main/configuration_tabs.tpl
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage Skin
+ * @author     Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+ * @version    626362abdced0086c1c116748026db88b0984243, v1 (xcart_4_7_4), 2015-10-01 14:20:13, configuration_tabs.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+div.page-tabs {
+  border-bottom: 1px solid #d6d9dc;
+  position: relative;
+  width: 100%;
+}
+
+div.page-tabs ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+div.page-tabs:before,
+div.page-tabs:after {
+  content: " ";
+  display: table;
+}
+
+div.page-tabs ul li {
+  display: inline-block;
+  margin-right: 21px;
+  margin-bottom: -2px;
+}
+
+div.page-tabs ul li a {
+  display: block;
+  margin-right: 3px;
+  padding: 0px 0px 1px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #808f98;
+  border-color: transparent;
+}
+
+div.page-tabs ul li.tab-current a,
+div.page-tabs ul li.tab.active a {
+  color: #32323a;
+  font-weight: 600;
+  border-color: transparent;
+}
+
+div.page-tabs ul li.tab-current::after,
+div.page-tabs ul li.tab.active::after {
+  content: "";
+  height: 2px;
+  width: calc(100% - 3px);
+  border: 1px solid #a5aeb2;
+  background-color: #a5aeb2;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block;
+}
+
+div.page-tabs ul li:hover a {
+  color: #44789d;
+}
+
+div.page-tabs ul li a:hover,
+div.page-tabs ul li a:focus {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+div.page-tabs ul li:hover::after {
+  content: "";
+  height: 2px;
+  width: calc(100% - 3px);
+  border: 1px solid #44789d;
+  background-color: #44789d;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  display: block;
+}

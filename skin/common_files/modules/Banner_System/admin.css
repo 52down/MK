@@ -1,0 +1,15 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Banner content CSS stylesheet
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author	   Ruslan R. Fazlyev <rrf@x-cart.com>
+ * @version    3f693a1f63cd25b1d4d9c7a8b272b1267829bdba, v1 (xcart_4_6_5), 2014-08-05 15:02:47, admin.css, aim
+ * @link	   http://www.x-cart.com/
+ * @see		   ____file_see____
+ */
+#bs_change_categories {
+ max-width: 772px;
+}

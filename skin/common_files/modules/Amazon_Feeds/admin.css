@@ -1,0 +1,123 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Amazon Feeds module admin CSS stylesheet
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Michael Bugrov
+ * @version    09d46970de4b3605245381ed8ecd8b55fffd1d3e, v2 (xcart_4_7_5), 2016-02-12 18:28:36, admin.css, aim
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+@-webkit-keyframes afds-progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@-o-keyframes afds-progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes afds-progress-bar-stripes {
+    from {
+        background-position: 40px 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+.afds-progress {
+  height: 20px;
+  margin: 25px 0;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  position: relative;
+}
+
+.afds-progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+
+  -webkit-animation: afds-progress-bar-stripes 2s linear infinite;
+  -o-animation: afds-progress-bar-stripes 2s linear infinite;
+  animation: afds-progress-bar-stripes 2s linear infinite;
+}
+
+.afds-progress-bar-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.afds-text-light {
+  color: #fff;
+}
+
+.afds-modal .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.afds-catalog,
+.afds-feeds-results
+{
+  width: 100%;
+}
+
+.afds-product-type {
+  padding-top: 9px;
+}
+
+.afds-product-type div.error-label {
+  visibility: hidden;
+  display: block;
+  padding-top: 5px;
+}
+
+.afds-product-type.fill-error div.error-label {
+  visibility: visible;
+}
+
+.afds-feeds-results th,
+.afds-feeds-results td
+{
+  text-align: center;
+  padding: 5px;
+}

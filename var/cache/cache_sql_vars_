@@ -1,0 +1,1 @@
+                        70764376a:2:{s:4:"data";a:7:{s:20:"character_set_client";s:4:"utf8";s:16:"join_buffer_size";s:6:"262144";s:22:"lower_case_table_names";s:1:"1";s:18:"max_allowed_packet";s:7:"1048576";s:13:"max_join_size";s:20:"18446744073709551615";s:15:"sql_big_selects";s:2:"ON";s:12:"wait_timeout";s:5:"28800";}s:1:"v";s:1:"2";}

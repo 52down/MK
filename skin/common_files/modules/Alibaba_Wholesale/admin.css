@@ -1,0 +1,377 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * General CSS stylesheet for admin pages
+ * 
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Michael Bugrov
+ * @version    ee8fb4ea37d363887326bb281100a27746bc181e, v5 (xcart_4_7_4), 2015-10-12 09:49:37, admin.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+.aw-product-sign {
+  width: 80px;
+  height: 12px;
+  background-size: 250px;
+  background-image: url(images/sprite.png);
+  float: right;
+}
+
+.aw-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.aw-table {
+  display: table;
+  width: 100%;
+}
+
+.aw-trow {
+  display: table-row;
+}
+
+.aw-tcell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.aw-tcell input,
+.aw-tcell button {
+  padding: 0px;
+  margin: 0px;
+}
+
+.aw-filter-panel {
+  height: 0px;
+  overflow: hidden;
+}
+
+.aw-filter-panel div {
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.aw-filter-panel label,
+.aw-filter-panel input,
+.aw-filter-panel select {
+  padding: 5px;
+  margin: 5px;
+}
+
+@keyframes aw-show {
+  from {height: 0px;}
+  to {height: 40px;}
+}
+/* Safari support */
+@-webkit-keyframes aw-show {
+  from {height: 0px;}
+  to {height: 40px;}
+}
+
+@keyframes aw-hide {
+  from {height: 40px;}
+  to {height: 0px;}
+}
+/* Safari support */
+@-webkit-keyframes aw-hide {
+  from {height: 40px;}
+  to {height: 0px;}
+}
+
+.aw-animate-show {
+  animation-name: aw-show;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  /* Safari support */
+  -webkit-animation-name: aw-show;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.aw-animate-hide {
+  animation-name: aw-hide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  /* Safari support */
+  -webkit-animation-name: aw-hide;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.aw-logo {
+  width: 210px;
+  height: 40px;
+  background-image: url(images/sprite.png);
+  cursor: pointer;
+}
+
+.aw-search-keywords {
+  position: relative;
+}
+
+.aw-search-keywords input {
+  font-size: 12px;
+  line-height: 16px;
+  height: 38px;
+  outline: 0;
+  padding: 0 38px 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.aw-search-keywords button {
+  width: 24px;
+  height: 36px;
+  border: none;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  border-radius: 0px;
+  background: #fff;
+  outline: 0;
+}
+
+.aw-search-keywords button span.ui-button-text {
+  padding: 0px;
+  margin: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #ddd transparent transparent transparent;
+  margin-left: 7px;
+}
+
+.aw-search-keywords button:hover span.ui-button-text,
+.aw-search-keywords button span.ui-button-text.hover {
+  border-color: #555 transparent transparent transparent;
+}
+
+.aw-search-btn {
+  width: 120px;
+}
+
+.aw-search-btn button {
+  width: 120px;
+  height: 38px;
+  border: 0px;
+  border-radius: 0 3px 3px 0!important;
+  color: #fff;
+  font-size: 16px;
+  background-color: #ff7519;
+  background-image: url(images/sprite.png);
+  background-position: -255px -5px;
+  cursor: pointer;
+}
+
+.aw-search-btn button .ui-button-text {
+  padding-left: 3em;
+}
+
+.aw-categories {
+  width: 210px;
+}
+
+.aw-categories h2 {
+  cursor: pointer;
+}
+
+.aw-categories h2,
+.aw-categories li {
+  text-align: left;
+}
+
+.aw-categories ul {
+  padding-left: 0px;
+}
+
+.aw-categories li {
+  list-style-type: none;
+  line-height: 24px;
+}
+
+.aw-products h3 {
+  clear: both;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.aw-products h3 a,
+.aw-categories li a {
+  text-decoration: none;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+.aw-products h3 a:hover,
+.aw-categories li a:hover {
+  text-decoration: underline;
+}
+
+.aw-products ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.aw-products ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.aw-product {
+  height: 352px;
+  width: 222px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin: 0 27px 27px 0;
+}
+
+.aw-product:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.aw-card a {
+  text-decoration: none;
+}
+
+.aw-product .aw-card-figure {
+  width: 220px;
+  height: 220px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  font: 0/0 none;
+}
+
+.aw-card-figure:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.aw-card-figure img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aw-product .aw-card-body {
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.aw-card-title {
+  font-family: monospace;
+  margin: 0 0 15px 0;
+}
+
+.aw-card-price strong,
+.aw-price strong
+{
+  font-size: 18px;
+}
+
+.aw-product-details * {
+  box-sizing: border-box;
+}
+
+.aw-product-details .aw-tcell:first-child {
+  padding-right: 10px;
+  width: 360px;
+}
+
+.aw-images > div:first-child {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.aw-images > div:first-child img {
+  width: 350px;
+}
+
+.aw-images ul,
+.aw-order-info p,
+.aw-product-info ul
+{
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.aw-images ul li {
+  padding: 4px;
+  list-style: none;
+  float: left;
+}
+
+.aw-images ul li a {
+  outline: 0;
+}
+
+.aw-images ul li img {
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid #eee;
+  width: 46px;
+  height: 46px;
+  cursor: zoom-in;
+}
+
+.aw-images ul li img:hover {
+  border-color: #ff771c;
+}
+
+.aw-order-info {
+  padding: 15px;
+  background-color: #eee;
+}
+
+.aw-buttons {
+  padding-top: 20px;
+}
+
+.aw-buttons .ui-button {
+  width: 100%;
+}
+
+.aw-buttons .ui-button span {
+  line-height: 30px;
+  width: 100%;
+}
+
+.aw-cat-level-1:not(.aw-parent),
+.aw-cat-level-2:not(.aw-parent),
+.aw-cat-level-3:not(.aw-parent),
+.aw-cat-level-4:not(.aw-parent)
+{
+  border-left: 1px solid #eee;
+}
+
+.aw-cat-level-1 {
+  margin-left: 5px;
+  padding-left: 7px;
+}
+
+.aw-cat-level-2 {
+  margin-left: 15px;
+  padding-left: 7px;
+}
+
+.aw-cat-level-3 {
+  margin-left: 25px;
+  padding-left: 7px;
+}
+
+.aw-cat-level-4 {
+  margin-left: 35px;
+  padding-left: 7px;
+}

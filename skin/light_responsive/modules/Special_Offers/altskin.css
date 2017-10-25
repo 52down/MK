@@ -1,0 +1,56 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Special Offers responsive CSS stylesheet
+ *  
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com> 
+ * @version    393d9cce0a4bf274b3d9cf76759b7f215da34b5f, v3 (xcart_4_7_7), 2016-12-28 17:39:17, altskin.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+.offers-short-list {
+  padding-right: 130px;
+  position: relative;
+  margin-bottom: 0;
+}
+.offers-short-list .offers-more-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 130px;
+}
+.offers-cell {
+  box-sizing: border-box;
+  margin-bottom: 1em;
+}
+.offers-cell > p:first-child {
+  margin-top: 0;
+}
+.offers-cart-button > div.button {
+  background-color: #ffffff;
+  border-color: #ff6c00;
+}
+.offers-cart-button > div.button a {
+  color: #ff6c00;
+}
+.offers-cart-button > div.button:hover {
+  background-color: #ff6c00;
+  border-color: transparent;
+}
+.offers-cart-button > div.button:hover a {
+  color: #ffffff;
+}
+@media screen and (max-width:767px) {
+
+  .offers-short-list {
+    margin-top: 0;
+  }
+
+  .offers-cell {
+    width: 100% !important;
+    float: none;
+    padding: 0;
+  }
+}

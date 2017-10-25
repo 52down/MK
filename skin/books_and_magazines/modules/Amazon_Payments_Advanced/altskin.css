@@ -1,0 +1,15 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Amazon Payments Advanced module CSS stylesheet
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Michael Bugrov
+ * @version    ebfe7c88b0d64d8702f3e9c9bbc25c7f506cb49b, v1 (xcart_4_7_7), 2016-09-06 19:28:34, altskin.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+ul#opc-sections.amazon-payment-advanced li.opc-section.last {
+    width: calc(100% - 455px);
+}

@@ -1,0 +1,62 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Banner Systems module CSS stylesheet
+ *  
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com> 
+ * @version    476a975ff6304be2bd93c1b0d6193e88d41dcf49, v5 (xcart_4_7_7), 2017-01-17 00:19:51, main.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+.banner-wrapper {
+  position: relative;
+}
+.banner-system {
+  position: relative;
+}
+.banner-system div[class^="slideshow_content"] {
+  position: static;
+  visibility: hidden;
+  width: 100% !important;
+}
+.banner-system div[class^="slideshow_content"]:nth-child(n+2) {
+  display: none;
+}
+.banner-system div[class^="slideshow_content"] > img,
+.banner-system div[class^="slideshow_content"] > a > img {
+  height: auto;
+  width: 100% !important;
+}
+
+.cycle-pager {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 500;
+  overflow: hidden;
+  text-align: center;
+}
+.cycle-pager > a {
+  padding: 5px;
+  margin: 5px;
+  background: #fff;
+  border-color: #aaa;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 18px;
+}
+.cycle-pager > a:hover {
+  text-decoration: underline;
+}
+.cycle-pager > a.cycle-pager-active {
+  background: #8f8f8f;
+  color: #fff;
+}
+.cycle-pager > * {
+  cursor: pointer;
+}

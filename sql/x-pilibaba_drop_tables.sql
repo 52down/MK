@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS xcart_pilibaba_data, xcart_pilibaba_service_orders, xcart_pilibaba_func_not_compatible;

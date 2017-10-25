@@ -1,0 +1,105 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ *
+ *  
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com> 
+ * @version    abb7bdb4113eb817a1fd17d3569538080df45f5d, v3 (xcart_4_7_8), 2017-05-30 16:33:09, main.css, aim
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+.subscriptions .details {
+  width: 100%;
+  vertical-align: top;
+}
+.subscriptions .product-product {
+  font-weight: bold;
+  font-size: 14px;
+}
+.subscription-status {
+  font-weight: bold;
+}
+.subscription-status .active {
+	color: #1AB500;
+}
+.subscription-status .stopped {
+	color: #B51A00;
+}
+.subscription-status .finished {
+  color: #001AB5;
+}
+.subscriptions .image {
+  vertical-align: top;
+}
+.subscriptions .image img {
+  margin: 0 20px;
+}
+.subscriptions .descr {
+  padding-top: 15px;
+}
+
+.calendar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.subscription-calendar {
+	display: none;
+}
+.subscription-calendar .subscription-pending {
+/*  background-color: #001AB5;*/
+}
+.subscription-legend .subscription-pending a,
+.subscription-calendar .subscription-pending a {
+  border-color: #001AB5;
+  border-width: 2px;
+}
+.subscription-calendar .subscription-done {
+/*  background-color: #1AB500;*/
+}
+.subscription-legend .subscription-done a,
+.subscription-calendar .subscription-done a {
+  border-color: #1AB500;
+  border-width: 2px;
+}
+.subscription-calendar .subscription-failed {
+/*  background-color: #B51A00;*/
+}
+.subscription-legend .subscription-failed a,
+.subscription-calendar .subscription-failed a {
+  border-color: #B51A00;
+  border-width: 2px;
+}
+.subscription-legend.ui-datepicker {
+  display: block;
+  width: 100%;
+  border: none;
+}
+.subscription-legend .ui-datepicker-group {
+  width: 100%;
+}
+.subscription-legend td {
+  width: 95%;
+}
+.subscription-legend td.subscription-done,
+.subscription-legend td.subscription-failed,
+.subscription-legend td.subscription-pending {
+  width: 15px;
+}
+.subscription-legend a.ui-state-default {
+  width: 15px;
+}
+.subscription-card-data .card-icon {
+  zoom: 0.5;
+  -moz-transform: scale(0.5);
+  -moz-transform-origin: 0 0 0;
+  margin-top: -10px;
+}
+.saved-cards-title {
+  margin-bottom: 5px;
+}
+.saved-cards-select-wrapper {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * X-MultiCurrency module CSS stylesheet
+ *
+ * @category    X-Cart
+ * @package     X-Cart
+ * @subpackage  CSS
+ * @author      Michael Bugrov
+ * @version     a29e1b7957381fc2d95ee70e9cdca201bc070596, v1 (xcart_4_7_7), 2016-10-03 19:43:56, altskin.css, mixon
+ * @link        http://www.x-cart.com/
+ * @see         ____file_see____
+ */
+
+.mc-selector-menu-item.mc-country {
+  display: inline-block;
+  display: -webkit-inline-box;
+  width: 140px;
+  height: 16px;
+  line-height: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 1163px) {
+  .mc-selector-menu-item.mc-country {
+    width: 95px;
+    height: 14px;
+    line-height: 14px;
+  }
+}

@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS xcart_mailchimp_newslists, xcart_mailchimp_campaigns_stores, xcart_mailchimp_products, xcart_mailchimp_abandoned_carts, xcart_mailchimp_default_stores, xcart_mailchimp_product_batches;

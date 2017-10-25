@@ -1,0 +1,4 @@
+cd modules/Adv_Mailchimp_Subscription;
+composer update "drewm/mailchimp-api"
+
+https://github.com/drewm/mailchimp-api

@@ -1,0 +1,18 @@
+/*
+bd216f9f6deeddd5e01b128394bc0813c0c2546c, v1 (xcart_4_7_7), 2016-10-27 17:12:39, altskin.Chrome.css, mixon
+
+vim: set ts=2 sw=2 sts=2 et:
+*/
+
+button.button .button-right {
+  margin: 0 14.999px 0 0;
+  padding: 0 13.999px 0 0;
+}
+
+div.button {
+  padding: 0 14.999px 0 0;
+}
+
+div.dropout-wrapper .button {
+  padding-right: 13.999px;
+}

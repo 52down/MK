@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS xcart_shippingeasy_order_status, xcart_shippingeasy_statuses, xcart_shippingeasy_shipped_order_items;

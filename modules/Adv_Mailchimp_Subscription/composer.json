@@ -1,0 +1,8 @@
+{
+    "config": {
+        "vendor-dir": "lib"
+    },
+    "require": {
+        "drewm/mailchimp-api": "^2.2"
+    }
+}

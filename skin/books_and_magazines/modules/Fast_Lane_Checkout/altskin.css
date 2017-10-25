@@ -1,0 +1,16 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * Fast Lane Checkout module CSS stylesheet
+ *
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Michael Bugrov
+ * @version    16af998544f8888465a6c1a57c0df49082f9adc9, v1 (xcart_4_7_7), 2016-09-22 11:32:34, altskin.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+
+.flc-container.checkout-container #center-main {
+    margin: 30px;
+}

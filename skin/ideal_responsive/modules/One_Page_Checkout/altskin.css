@@ -1,0 +1,66 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * One Page Checkout module CSS stylesheet
+ *
+ * @category    X-Cart
+ * @package     X-Cart
+ * @subpackage  CSS
+ * @author      Ruslan R. Fazlyev <rrf@x-cart.com>
+ * @version     09d46970de4b3605245381ed8ecd8b55fffd1d3e, v5 (xcart_4_7_5), 2016-02-12 18:28:36, altskin.css, aim
+ * @link        http://www.x-cart.com/
+ * @see         ____file_see____
+ */
+
+table.totals tr td.total,
+table.totals tr td.total-name,
+table.totals tr td.total-value,
+table.totals tr td.total-value-alt,
+table.totals span.total-name
+{
+  font-weight: bold;
+  text-transform: none;
+  padding: 5px 5px 5px 0;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+table.totals tr.total td.total-value-alt {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+div.checkout-container #center #personal_details input[type=text],
+div.checkout-container #center #personal_details input[type=password],
+div.checkout-container #center #personal_details select
+{
+  max-width: 98%;
+}
+
+div.checkout-container #center #personal_details select
+{
+  width: 82%!important;
+}
+
+div.checkout-container #center textarea {
+  max-width: 99%;
+}
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+  div.checkout-container #center #personal_details input[type=text],
+  div.checkout-container #center #personal_details input[type=password],
+  div.checkout-container #center #personal_details select
+  {
+    max-width: 76%;
+  }
+
+  div.checkout-container #center #personal_details select
+  {
+    min-width: 78%;
+  }
+
+  div.checkout-container #center fieldset.registerform ul li.fields-group input[type=text],
+  div.checkout-container #center fieldset.registerform ul li.fields-group input[type=password]
+  {
+    max-width: 100%;
+  }
+}

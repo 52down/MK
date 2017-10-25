@@ -1,0 +1,68 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+/**
+ * EU Cookie Law module CSS stylesheet
+ *  
+ * @category   X-Cart
+ * @package    X-Cart
+ * @subpackage CSS
+ * @author     Ruslan R. Fazlyev <rrf@x-cart.com> 
+ * @version    91cfc7a84be2f1927832ceae69a5bafe63c7fba5, v5 (xcart_4_7_7), 2017-01-09 17:51:57, main.css, mixon
+ * @link       http://www.x-cart.com/
+ * @see        ____file_see____
+ */
+div#eucl_panel {
+  border: 1px solid #aaa;
+  padding: 10px 15px 10px 15px;
+  display: none;
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  z-index: 100000;
+  background: #fff;
+  color: #000;
+}
+div#eucl_panel #eucl_panel_btn {
+  float: right;
+  padding: 7px 0px 0px 20px;
+  white-space: nowrap;
+}
+div#eucl_panel #eucl_panel_countdown {
+  padding: 0px 0px 0px 10px;
+  font-size: 18px;
+  white-space: nowrap;
+  color: #005d98;
+  display: inline-block;
+}
+div.save_close_btn {
+  float: right;
+  padding-right: 20px;
+}
+#eucl_desc ul {
+  margin: 0px;
+}
+div.eucl_dialog {
+  padding: 10px;
+  line-height: 14px;
+}
+
+.cookie_settings_description,
+.cookies-settings-block {
+  margin-bottom: 2em;
+}
+.cookies-settings-block .settings {
+  margin: 0 0 0.5em;
+}
+.cookies-settings-block .setting {
+  display: inline-block;
+  margin-right: 1em;
+}
+.cookies-settings-block h3 {
+  margin-bottom: 0.5em;
+}
+.eucl-description ul {
+  margin: 0;
+  padding: 0;
+}
+.eucl-description li {
+  padding: 0.2em;
+}
