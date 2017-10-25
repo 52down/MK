@@ -102,9 +102,9 @@ vim: set ts=2 sw=2 sts=2 et:
                         {if $smarty.foreach.cat_2_sub.index eq 7}
                         </ol>
                         <ol>
-                          <li><a href="{$cat_2_sub.categoryid}">{$cat_2_sub.category}</a></li>
+                          <li><a href="home.php?cat={$cat_2_sub.categoryid}">{$cat_2_sub.category}</a></li>
                         {else}
-                          <li><a href="{$cat_2_sub.categoryid}">{$cat_2_sub.category}</a></li>
+                          <li><a href="home.php?cat={$cat_2_sub.categoryid}">{$cat_2_sub.category}</a></li>
                         {/if}
                         {/foreach}
                         </ol>
@@ -123,7 +123,7 @@ vim: set ts=2 sw=2 sts=2 et:
                       <div class="dropdown-menu-3">
                         <ol>
                         {foreach from=$cat_3.sub item=cat_3_sub name=cat_3_sub}
-                          <li><a href="{$cat_2_sub.categoryid}">{$cat_3_sub.category}</a></li>
+                          <li><a href="home.php?cat={$cat_2_sub.categoryid}">{$cat_3_sub.category}</a></li>
                         {/foreach}
                         </ol>
                       </div>
